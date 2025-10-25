@@ -35,8 +35,8 @@
 
 ```mermaid
 graph TD
-    A[데이터 수집 및 전처리] --> B[모델 예측 수행 (Batch 단위)]
-    B --> C[예측 결과 저장 (DB or Storage)]
+    A[데이터 수집 및 전처리] --> B[모델 예측 수행 - Batch 단위]
+    B --> C[예측 결과 저장 - DB or Storage]
     C --> D[서비스에서 예측 결과 조회 및 활용]
 ```
 
