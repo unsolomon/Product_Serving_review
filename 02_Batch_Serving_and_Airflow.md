@@ -115,7 +115,7 @@ graph TD
 ### 5.3 Airflow의 개념적 동작 흐름
 
 ```mermaid
-   graph TD
+graph TD
       A[정의된 DAG] --> B[Scheduler가 주기적 실행 요청]
       B --> C[Executor가 Task 실행]
       C --> D[로그 및 결과 저장]
