@@ -1,4 +1,4 @@
-````markdown
+
 # 🧠 모델 관리와 모델 평가
 
 ## **1. 모델 관리의 필요성**
@@ -67,7 +67,7 @@ graph TD
     B --> C[Tracking 서버에 로그 기록]
     C --> D[Model Registry 등록]
     D --> E[Production 환경으로 Promote]
-````
+
 
 > 📁 `Experiment` : 프로젝트 단위 실험
 > 📄 `Run` : 1회 코드 실행 (학습)
